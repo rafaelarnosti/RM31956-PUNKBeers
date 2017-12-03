@@ -56,7 +56,7 @@ class ListaCervejaTableViewController: UITableViewController {
         let url = URL(string: beer.image_url)
         
         cell.textLabel?.text = beer.name
-        cell.detailTextLabel?.text = "\(beer.abv)"
+        cell.detailTextLabel?.text = "Teor Alcoolico:\(beer.abv)"
         cell.imageView?.kf.setImage(with: url)
         
 

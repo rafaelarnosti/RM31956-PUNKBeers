@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             tfabv.text = "Teor Alcoolico: \(beer.abv)"
             tfibu.text = "Escala de Amargor: \(beer.ibu ?? 0)"
             
-            let url = URL(string: beer.image_url)            
+            let url = URL(string: beer.image_url)
             ivBeers.kf.setImage(with: url)
         }
     }
